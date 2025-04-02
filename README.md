@@ -1,4 +1,4 @@
-# To-Do List Application
+# React Application
 
 User will be able to perform following actions:
 1. Add New Task
