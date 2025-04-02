@@ -11,6 +11,10 @@ h1{
   font-size: 4rem;
   color: white;
 }
+h2{
+  color: hsl(0, 0%, 80%);
+  text-align: justify;
+}
 button{
   font-size: 1.7rem;
   font-weight: bold;
@@ -41,11 +45,11 @@ button:hover{
   background-color: hsl(0, 0%, 97%);
 }
 input[type="text"]{
-  font-size: 1.6rem;
-  padding: 10px;
+  font-size: 1.5rem;
+  padding: 10px;  
   border: 2px solid hsla(0, 0%, 80%, 0.5);
   border-radius: 5px;
-  color: hsla(0, 0%,0%, 0.5);
+  color: hsla(0, 0%,0%, 75%);
   margin:0.5rem;
 }
 input[type="checkbox"]{

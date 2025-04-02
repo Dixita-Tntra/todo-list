@@ -43,6 +43,9 @@ function TodoList() {
     );
   }
 
+  const completedTasks = () => tasks.filter((task) => task.completed).length;
+  const totalTasks = () => tasks.length;
+
   return (
     <div className="todo-list">
       <h1>To-Do List</h1>
@@ -81,6 +84,9 @@ function TodoList() {
           </li>
         ))}
       </ol>
+      <h2>
+        Tasks Progress: {completedTasks()} / {totalTasks()}
+      </h2>
     </div>
   );
 }
