@@ -12,8 +12,8 @@ h1{
   color: white;
 }
 h2{
-  color: hsl(0, 0%, 80%);
-  text-align: justify;
+  color: hsl(0, 0%, 75%);
+  text-align: right;
 }
 button{
   font-size: 1.7rem;
